@@ -1,0 +1,119 @@
+Python 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 8.25.0 -- An enhanced Interactive Python.
+
+
+"""
+Created on Mon Mar 30 18:40:51 2026
+
+@author: hp
+"""
+
+import pandas as pd
+
+# 1
+friends = pd.read_excel(r"C:\Users\hp\salomi\friend_names.xls file.xlsx")
+print("\nFriends:\n", friends)
+
+# 2
+family = pd.read_excel(r"C:\Users\hp\salomi\family_members.xls file.xlsx")
+print("\nFamily:\n", family)
+
+# 3
+veg = pd.read_excel(r"C:\Users\hp\salomi\vegfood_items.xlsx file.xlsx")
+print("\nVeg Food:\n", veg)
+
+# 4
+nonveg = pd.read_excel(r"C:\Users\hp\salomi\nonvegfood_items.xlsx file.xlsx")
+print("\nNon-Veg Food:\n", nonveg)
+
+# 5
+months = pd.read_excel(r"C:\Users\hp\salomi\month_names.xlsx file.xlsx")
+print("\nMonths:\n", months)
+
+# 6
+colours = pd.read_excel(r"C:\Users\hp\salomi\colours_names.xlsx file.xlsx")
+print("\nColours:\n", colours)
+
+Friends:
+   FriendName      Quality
+0   maneesha     creative
+1     sujana         kind
+2     pushpa        funny
+3   priyanka        smart
+4    eliazer  hardworking
+5    esterbi        loyal
+6     vijaya       caring
+7    prakash      helpful
+8       vani       honest
+9       mani         calm
+
+Family:
+    FamilyMemberName                Relation
+0          jayapaul                  father
+1     rangasarojini                  mother
+2        rajakumari            eldestsister
+3  venkataramanayya    elder brother_in_law
+4            mahima                   niece
+5         sunilraju                 brother
+6           meghana           sister_in_law
+7       yonafrancis                  nephew
+8          sowjanya            middlesister
+9         anilkumar  younger brother_in_law
+
+Veg Food:
+             VegFoodName     Taste
+0  paneer butter masala     spicy
+1             dal tadka    savory
+2          palak paneer      mild
+3             aloo gobi     spicy
+4           masala dosa     tangy
+5     vegetable biryani  fragrant
+6         chole bhature     spicy
+7          malaki kofta     sweet
+8       gobi manchurian     spicy
+9       mixed veg curry    savory
+
+Non-Veg Food:
+    NonvegFoodName      Taste
+0   chicken curry      spicy
+1  mutton biryani       rich
+2        fish fry     crispy
+3       egg curry      tasty
+4     chicken fry      spicy
+5          prawns      juicy
+6           kebab      smoky
+7   roast chicken  delicious
+8      chicken 65        hot
+9  butter chicken      spicy
+
+Months:
+     MonthName      Season
+0     january      winter
+1    february      winter
+2       march      spring
+3       april      spring
+4         may      summer
+5        june      summer
+6        july     monsoon
+7      august     monsoon
+8   september      autumn
+9     october      autumn
+10   november  pre_winter
+11   december      winter
+
+Colours:
+    colourname_in_english colourname_in_hindi colourname_in_telugu
+0                    red                 lal                erupu
+1                   blue               neela               neelam
+2                  green                hara            akupachha
+3                 yellow               peela               pasupu
+4                  white               safed               telupu
+5                  black                kala              nallapu
+6                   pink              gulabi               gulabi
+7                 orange             narangi              narangi
+8                  brown               bhura              godhuma
+9                   grey              sileti             boodidha
+10                purple            baingani              vankaya
+11                  gold             sunehra              bangaru
